@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useContext } from "react";
 import { CartContext } from "../../context/shopContext";
+import MiniCart from "./MiniCart";
 // import MiniCart from "./MiniCart";
 // import { FaGithub } from "react-icons/fa";
 
@@ -17,9 +18,7 @@ const Nav = () => {
     <div className="border-b sticky top-0 z-20 bg-white">
       <div className="flex items-center justify-between max-w-6xl pt-4 pb-2 px-4 mx-auto lg:max-w-screen-xl">
         <Link href="/" passHref>
-          
-            <span className="text-lg pt-1 font-bold">Shopify + Next.js</span>
-          
+          <span className="text-lg pt-1 font-bold">Shopify + Next.js</span>
         </Link>
         <a
           href="https://github.com/bdoroshev/Shopify-NextJS-Tailwind"
@@ -34,7 +33,7 @@ const Nav = () => {
         >
           Cart ({cartQuantity})
         </a>
-        {/* <MiniCart cart={cart} /> */}
+        <MiniCart cart={cart} />
       </div>
     </div>
   );
