@@ -2,48 +2,60 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-white mt-4 mb-4">
-      <section class="pt-10 overflow-hidden  md:pt-0 sm:pt-16 2xl:pt-16">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div class="grid items-center grid-cols-1 md:grid-cols-2">
-            <div>
-              <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-                Hey 👋 I am <br class="block sm:hidden" />
-                Jenny Carter
-              </h2>
-              <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-
-              <p class="mt-4 text-xl text-gray-600 md:mt-8">
-                <span class="relative inline-block">
-                  <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
-                  <span class="relative"> Have a question? </span>
-                </span>
-                <br class="block sm:hidden" />
-                Ask me on{" "}
-                <a
-                  href="#"
-                  title=""
-                  class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"
-                >
-                  Twitter
-                </a>
-              </p>
+    
+    <div className="min-h-screen mt-4 mb-4">
+      <section className="pt-10 overflow-hidden  md:pt-0 sm:pt-16 2xl:pt-16">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="flex justify-between">
+            <div className="mt-20 ml-12">
+                  <div>
+                    <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+                      Hey 👋 I am <br className="block sm:hidden" />
+                      Jenny Carter
+                    </h2>
+                    <p className="max-w-lg mt-3 text-xl leading-relaxed text-white md:mt-8">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                      amet sint. Velit officia consequat duis enim velit mollit.
+                      Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                  <div className="flex flex-row">
+                    <div className="mt-12">
+                      <button
+                        className="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs bg-blue-500 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                        type="button"
+                          >
+                        <span
+                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        ><i className="fas fa-heart text-white" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div className="mt-12 ml-8">
+                      <button
+                        className="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-10 max-w-[40px] h-10 max-h-[40px] rounded-lg text-xs bg-blue-500 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                        type="button"
+                          >
+                        <span
+                        className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                        ><i className="fas fa-heart text-white" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div className="mt-12 ml-8">
+                     
+                        <span
+                        className="text-white"
+                        ><i class="fa-solid fa-cart-shopping text-white"/>
+                        </span>
+                    
+                    </div>
+                  </div>
             </div>
-
-            <div class="relative">
+            <div className="ml-20">
               <img
-                class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
-                alt=""
-              />
-
-              <img
-                class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
-                src="https://ucarecdn.com/06c299a3-29ba-4a82-8d1b-0c25c54955ce/exampleimage.jpg"
+                className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
+                src="https://ucarecdn.com/f2196f22-4861-4903-9494-e2f790c87c34/character2.png"
                 alt=""
               />
             </div>

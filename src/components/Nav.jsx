@@ -52,9 +52,9 @@ const Nav = () => {
           />
         </svg>
 
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           About
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -76,9 +76,9 @@ const Nav = () => {
             fill="#ffc107"
           />
         </svg>
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           Art & Heart
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -98,9 +98,9 @@ const Nav = () => {
             fill="#ffc107"
           />
         </svg>
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           My Art
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
