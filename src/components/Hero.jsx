@@ -12,15 +12,15 @@ const Hero = () => {
         <div class="absolute inset-0 bg-black opacity-50"></div>
       </div>
 
-      <div class="absolute bottom-0 left-20">
+      <div class="absolute bottom-0 left-32">
         <img
           src="https://ucarecdn.com/83de2e77-270c-4ed4-b79e-b2b7aa960205/character3.png"
           className="h-96 md:visible visible sm:invisible"
         />
       </div>
 
-      <div class="absolute -bottom-28 -right-20">
-        <img src="https://ucarecdn.com/b0daa085-8336-4a80-b897-94609c80e4e0/character12.png" />
+      <div class="absolute -bottom-28 -right-12">
+        <img src="https://ucarecdn.com/b0daa085-8336-4a80-b897-94609c80e4e0/character12.png" className="md:visible visible sm:invisible" />
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center -top-20">
