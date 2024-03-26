@@ -11,12 +11,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home({ products }) {
   console.log(products);
   return (
-    <div>
+    <div >
       <Hero />
       <About />
       <GalleryWithTab />
       <ProductList products={products} />
-      <FAQ/>
+      {/* <FAQ/> */}
     </div>
   );
 }

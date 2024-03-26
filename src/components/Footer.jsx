@@ -7,7 +7,7 @@ const navigation = [
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer className="bg-black">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center">
           {navigation.map((item, i) => (
@@ -18,8 +18,8 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <p className="mt-8 text-center text-black">
-          &copy; 2022 Shopify, All right reserved.
+        <p className="mt-8 text-center text-white">
+          &copy; 2024 Shopify, All right reserved.
         </p>
       </div>
     </footer>

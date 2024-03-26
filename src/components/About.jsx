@@ -1,10 +1,13 @@
 import React from "react";
 
+const backgroundImage = "https://cdn.pixabay.com/photo/2016/10/17/19/37/dune-1748462_1280.jpg";
+
 const About = () => {
   return (
     
-    <div className="min-h-screen mt-4 mb-4">
-      <section className="pt-10 overflow-hidden  md:pt-0 sm:pt-16 2xl:pt-16">
+    <div className="min-h-screen py-8 bg-cover relative" style={{backgroundImage: `url(${backgroundImage})`}}>
+       <div className="absolute inset-0 bg-black opacity-50"></div>
+      <section className="absolute max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex justify-between">
             <div className="mt-20 ml-12">

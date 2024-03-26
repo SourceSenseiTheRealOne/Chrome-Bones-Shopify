@@ -16,7 +16,7 @@ function FAQ() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <>
+    <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(1)}>
           What is Material Tailwind?
@@ -50,7 +50,7 @@ function FAQ() {
           dreams.
         </AccordionBody>
       </Accordion>
-    </>
+    </div>
   );
 }
 
