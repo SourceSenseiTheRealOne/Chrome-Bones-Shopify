@@ -13,9 +13,9 @@ export default function Home({ products }) {
   return (
     <div >
       <Hero />
-      <About />
+      {/* <About />
       <GalleryWithTab />
-      <ProductList products={products} />
+      <ProductList products={products} /> */}
       {/* <FAQ/> */}
     </div>
   );

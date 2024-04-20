@@ -1,5 +1,6 @@
 import Nav from "./Nav";
-import Footer from "./Footer";
+import Footer from "./Footer"; 
+import { Inter } from "next/font/google";
 
 const Layout = ({ children }) => {
   return (
@@ -8,7 +9,7 @@ const Layout = ({ children }) => {
 
       <main>{children}</main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
