@@ -40,7 +40,7 @@ const Hero = () => {
         />
       </div>
 
-      <div class="relative z-10 flex flex-col justify-center items-center h-full text-center -top-56">
+      <div class="relative z-10 flex flex-col justify-center items-center h-full text-center -top-32">
         {/* <h1 class="text-5xl font-bold leading-tight mb-12">ChromeBones</h1> */}
         <Image
           src="https://res.cloudinary.com/dzxalfzwh/image/upload/v1713624461/brand-name.png"
